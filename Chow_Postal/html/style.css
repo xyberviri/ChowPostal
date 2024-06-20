@@ -1,0 +1,29 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Gadugi', sans-serif;
+}
+
+#hud {
+    position: absolute;
+    bottom: 0.3%;
+    left: 11.5%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(32, 32, 32);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 5px; /* Adjust spacing between boxes */
+    color: white;
+}
+
+#street {
+    margin-right: 0; /* No margin on the last box */
+}
